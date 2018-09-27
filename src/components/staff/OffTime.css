@@ -1,0 +1,232 @@
+.Offtime {
+    padding-bottom: 4rem;
+}
+
+#calendar {
+    margin-bottom: 4rem;
+}
+
+#calendar table.calendar {
+    border-collapse: collapse;
+}
+
+#calendar table.calendar thead {
+    background-color: #5A5A5A;
+    color: white;
+    margin-bottom: 3px;
+    border-bottom: 2px solid white
+}
+
+#calendar table.calendar thead th {
+    font-weight: lighter;
+    padding: 10px 3px;
+}
+
+#calendar table.calendar thead th.bolder {
+    font-weight: bold;
+}
+
+#calendar table.calendar tbody {
+    font-size: 0.8em;
+}
+
+#calendar table.calendar td {
+    text-align: center;
+    padding: 8px 6px;
+    cursor: pointer;
+    border: 1px solid rgba(185, 185, 185, 0.13);
+    min-width: 15px;
+}
+
+#calendar table.calendar tr:last-child td {
+    border-bottom: none;
+}
+
+#calendar table.calendar td.month-name {
+    font-weight: bold;
+    text-align: left;
+    cursor: default;
+    border-left: none;
+}
+
+#calendar table.calendar td.prev-month,
+#calendar table.calendar td.next-month {
+    color: transparent;
+    cursor: default;
+    pointer-events: none;
+}
+
+#calendar table.calendar td.week-separator {
+    pointer-events: none;
+    padding: 0;
+    width: 8px;
+    min-width: 0;
+}
+
+#calendar table.calendar td.winter {
+    background-color: rgba(159, 220, 249, 0.32);
+}
+
+#calendar table.calendar td.spring {
+    background-color: rgba(145, 212, 110, 0.32);
+}
+
+#calendar table.calendar td.summer {
+    background-color: rgba(255, 232, 91, 0.32);
+}
+
+#calendar table.calendar td.autumn {
+    background-color: rgba(246, 151, 60, 0.32);
+}
+
+#calendar table.calendar td.holidays {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+#calendar table.calendar td.weekend {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#calendar table.calendar td.offtime {
+    background-color: #ff8787;
+}
+
+#calendar table.calendar td.bolder {
+    font-weight: bold;
+}
+
+#calendar table.calendar td.winter.range,
+#calendar table.calendar td.winter.selected {
+    background-color: rgba(159, 220, 249, 1);
+    font-weight: bold;
+}
+
+#calendar table.calendar td.spring.range,
+#calendar table.calendar td.spring.selected {
+    background-color: rgba(145, 212, 110, 1);
+    font-weight: bold;
+}
+
+#calendar table.calendar td.summer.range,
+#calendar table.calendar td.summer.selected {
+    background-color: rgba(255, 232, 91, 1);
+    font-weight: bold;
+}
+
+#calendar table.calendar td.autumn.range,
+#calendar table.calendar td.autumn.selected {
+    background-color: rgba(246, 151, 60, 1);
+}
+
+#calendar table.calendar td.offtime.range,
+#calendar table.calendar td.offtime.selected {
+    background-color: rgb(214, 3, 3);
+}
+
+#calendar div.calendar-controls {
+    margin: 5px auto;
+    display: table;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+#calendar div.calendar-controls div {
+    display: inline;
+}
+
+#calendar div.calendar-controls .current-year {
+    margin: 0 30px;
+}
+
+#calendar div.calendar-controls .control {
+    font-weight: bolder;
+    color: #323232;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#calendar div.calendar-controls .today {
+    position: absolute;
+    right: 15px;
+    line-height: 35px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+div#calendar {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #5A5A5A;
+    background-color: white;
+    overflow-Y: hidden;
+    overflow-x: scroll;
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+.highlight-dates {
+    color: red;
+}
+
+.calendar-offtime--spinner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(158, 161, 161, 0.5);
+}
+
+.offtime--transcript {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.offtime--transcript table {
+    table-layout: auto;
+}
+
+.offtime--transcript--header {
+    text-align: center;
+    background-color: #666;
+    color: #ccc;
+}
+
+.offtime--transcript--row td {
+    padding-left: 1rem !important;
+}
+
+.offtime--transcript--row td:last-child {
+    text-align: center;
+}
+
+.transcript-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.transcript-checkbox label {
+    margin: 0;
+}
+
+.offtime--transcript--edit {
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+@media (max-width: 640px) {
+    .offtime--transcript {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .offtime--transcipt--row td {
+        padding-left: 0rem !important;
+        padding: 0.5em 1em !important;
+    }
+}

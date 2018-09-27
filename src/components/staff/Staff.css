@@ -1,0 +1,262 @@
+.staff-details-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.staff-list-header h4 {
+    margin-bottom: 0 !important;
+}
+
+.create-team-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.create-team-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit-team-button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.details-tab {
+    width: 33%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.details-profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.details-input {
+    line-height: 1 !important;
+}
+
+.user-type {
+    width: 100%;
+}
+
+.user-type.pay-rate {
+    height: 40px;
+}
+
+.phone-dropdown {
+    width: 100%;
+}
+
+.staff-service {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #EAEAEA;
+    background-image: linear-gradient(top, #f5f5f5 0, #e8e8e8 100%);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.staff-service span {
+    padding-left: 10px;
+}
+
+.service-toggle {
+    height: 30px;
+    width: 50px;
+}
+
+.team-toggle-button {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.team-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-header .icons {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.icons button:not(:first-child) {
+    margin-left: 5px;
+}
+
+.team-color-input-box {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    top: 10%;
+    left: 5px;
+    pointer-events: none;
+}
+
+.single-team {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.team-box-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px;
+    display: flex;
+}
+
+.team-name {
+    display: flex;
+    vertical-align: center;
+    width: 60%;
+}
+
+.team-box-color {
+    margin-right: 10px;
+}
+
+.icons .btn {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin-left: 5px;
+}
+
+.edit-team-button {
+    background-color: #6ad0d4 !important;
+    border-color: #6ad0d4 !important;
+}
+
+.edit-team-button:hover {
+    background-color: #5fbdc0 !important;
+    border-color: #5fbdc0 !important;
+}
+
+.staff-avatar {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.staff-avatar:hover {
+    border: 5px solid #6ad0d4;
+    cursor: pointer;
+}
+
+.staff-avatar.active {
+    border: 5px solid #6ad0d4;
+}
+
+.avatars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.or-line {
+    overflow: hidden;
+    text-align: center;
+}
+
+.or-line:before,
+.or-line:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.or-line:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.or-line:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.add-user-button.avatar {
+    float: right;
+    margin-top: 10px;
+}
+
+.staff-camera-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 20%;
+}
+
+.details-profile-image:hover + .staff-camera-icon {
+    color: #6ad0d4;
+}
+
+.staff-camera-icon:hover {
+    color: #6ad0d4;
+}
+
+.modal-title {
+    width: 100%;
+}
+
+.exit-modal {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.exit-modal:hover {
+    color: #6ad0d4;
+}
+
+.team-availability {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.team-availability-header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.drag-handle-team {
+    cursor: move;
+    margin-bottom: 2px;
+}
+
+@media (min-width: 1400px) {
+    .staff-camera-icon {
+        left: 25%;
+    }
+}

@@ -1,0 +1,99 @@
+.customer-sidebar {
+    height: 84vh;
+    overflow: auto
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+
+.tags li {
+    float: left;
+}
+
+.tag {
+    background: #545B62;
+    border-radius: 3px 0 0 3px;
+    color: #fff;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+
+.tag::after {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 7px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+
+.tag::before {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-right: 10px solid #545B62;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.tag:hover {
+    background-color: #72C585;
+    color: white;
+}
+
+.tag:hover::before {
+    border-right-color: #72C585;
+}
+
+.tag-input {
+    width: 70% !important;
+    box-shadow: none !important;
+}
+
+.add-tag-button {
+    width: 30%;
+}
+
+.add-tag {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.remove-tag {
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.notes {
+    margin-top: 50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.add-note-button {
+    float: right;
+    margin-top: 5px;
+}
+
+.delete-label {
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

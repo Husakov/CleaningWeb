@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400');
+
+* {
+    font-family: 'Open sans', sans-serif;
+    /* font-size: 0.9rem !important; */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn.btn-round-border, .btn.btn-round-border:hover, .btn.btn-round-border:focus {
+    border: 1px #cccccc solid;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    line-height: 1;
+    height: 41px;
+    width: 41px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.nav-item.disabled {
+    opacity: 0.4;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group > div:not(.input-group-prepend):not(.input-group-append):not(.toggle-container) {
+    width: 100%;
+}
+
+.input-group > div > .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.input-group > div > .react-datepicker-wrapper > .react-datepicker__input-container {
+    width: 100%;
+}
+
+.input-row > *:not(:first-child):not(:last-child) {
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+}
+
+.input-row > *:first-child:not(:last-child) {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right-width: 0 !important;
+}
+
+.input-row > *:last-child:not(:first-child) {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-row > .input-group:first-child:not(:last-child) .form-control {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right-width: 0 !important;
+}
+
+.input-row > *:last-child:not(:first-child) .input-group-text {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-row > .input-group:not(:first-child):not(:last-child) .input-group-text {
+    border-radius: 0 !important;
+}
+
+.input-row > .input-group:not(:first-child):not(:last-child) .input-group-append .input-group-text {
+    border-right-width: 0 !important;
+}
+
+.input-row > .input-group:not(:first-child):not(:last-child) .form-control {
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+}
+
+.drag-handle {
+    cursor: all-scroll;
+}
+
+.table tr td, .table tr th {
+    vertical-align: middle;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.autocomplete-dropdown-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    z-index: 1;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.modal-header button.close:focus {
+    outline: none;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+    width: 100%;
+}
+
+.react-datepicker__time-list {
+    padding: 0 !important;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+}
+
+.scroll-x {
+    overflow-x: scroll;
+}
+
+.bg-gray {
+    background-color: #616161;
+}
+
+.flex-1 {
+    flex: 1;
+}

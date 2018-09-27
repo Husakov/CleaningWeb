@@ -1,0 +1,12 @@
+.quote-preview-row {
+    display: flex;
+}
+
+.quote-preview-row .key {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.quote-preview-total.first {
+    border-top: 1px dotted black;
+}

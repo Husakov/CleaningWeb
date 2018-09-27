@@ -1,0 +1,170 @@
+.off-time--modal .modal-title {
+    text-align: center;
+}
+
+.offtime-modal__body {
+    display: flex;
+}
+
+.modal__sidebar {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    padding-top: 2em;
+}
+
+.modal__main {
+    flex: 4;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+.main--row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+.main__picker1 {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.main__picker2 {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.main__radio-buttons {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.repeat-offtime {
+    flex: 1;
+}
+
+.main__repeat {
+    flex: 1;
+    display: flex;
+}
+
+.repeat-select {
+    flex: 1;
+    padding: 0 0.5em;
+    display: flex;
+    width: 100%;
+}
+
+.main__note {
+    flex: 1;
+}
+
+.add-note__button {
+    float: right;
+    margin-top: 5px;
+}
+
+.modal__radio__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.modal__radio--margin {
+    margin-right: 0.5em;
+}
+
+.modal__radio-labels--margin {
+    margin: 0;
+}
+
+.datepicker__predefined-ranges {
+    list-style-type: none;
+}
+
+.datepicker__predefined-ranges li {
+    cursor: pointer;
+    padding: 0.4em 1em;
+    font-size: 0.9rem;
+}
+
+.datepicker__predefined-ranges li:not(.predefined-ranges--background):hover {
+    background-color: #eee;
+}
+
+.predefined-ranges--background {
+    background-color: #08c;
+    color: #fff;
+}
+
+.picker--selection {
+    font-size: 0.9rem;
+    padding-left: 2em;
+    margin-bottom: 2em;
+    color: #999;
+}
+
+.picker--selection time {
+    font-size: 0.8rem;
+    color: red;
+}
+
+.modal--warning {
+    color: red;
+    font-size: 0.8em;
+    padding-left: 2em;
+}
+
+@media (max-width: 991px) {
+    .main--row {
+        flex-flow: column;
+    }
+
+    .Repeat--row {
+        flex-flow: column;
+    }
+
+    .Repeat--radio-days {
+        flex-flow: column;
+    }
+
+    .offtime-modal__body .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        width: 1.1rem !important;
+    }
+
+    div.modal-dialog.off-time--modal.modal-lg {
+        max-width: 800px !important;
+    }
+}
+
+@media (max-width: 420px) {
+
+    div.modal-dialog.off-time--modal.modal-lg {
+        max-width: 400px !important;
+    }
+
+    .datepicker__predefined-ranges {
+        padding: 0;
+    }
+
+    .main--row {
+        padding-left: 0.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    div.modal-dialog.off-time--modal.modal-lg {
+        max-width: 1024px !important;
+    }
+
+    .offtime-modal__body .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        width: 1.7rem;
+    }
+}

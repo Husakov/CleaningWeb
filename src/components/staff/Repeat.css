@@ -1,0 +1,62 @@
+.Repeat {
+    display: flex;
+    flex-flow: column;
+}
+
+.Repeat--row {
+    display: flex;
+    flex-flow: row;
+    margin: 0.5em 0;
+}
+
+.Repeat--prefix {
+    flex: 0 0 20%;
+    min-width: 120px;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.Repeat--picks {
+    flex: 0 0 80%;
+    padding-left: 1em;
+}
+
+.Repeat--radio-days {
+    display: flex;
+    flex-flow: row;
+}
+
+.radio-day {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.radio-day label {
+    padding-left: 0.2em;
+    display: flex;
+    margin: 0;
+    cursor: pointer;
+}
+
+.Repeat--picks-repeat-every {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Repeat--picks-repeat-every span {
+    flex: 1;
+    text-align: center;
+}
+
+.Repeat--picks-repeat-every select {
+    flex: 2;
+    margin: 0 0 0 1em;
+}
+
+.repeat-end-picker {
+    flex: 0 0 80%;
+}

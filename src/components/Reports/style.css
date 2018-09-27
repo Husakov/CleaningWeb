@@ -1,0 +1,7 @@
+.reports-table {
+    font-size: 12px;
+}
+
+.reports-table td, .reports-table th {
+    padding: 5px;
+}

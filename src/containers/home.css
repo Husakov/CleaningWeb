@@ -1,0 +1,40 @@
+.grid-card .card-body {
+    width: 100%;
+    height: calc(100% - 49px);
+}
+
+.card-body-label{
+    padding: 0.7rem !important;
+}
+
+.edit-label-button{
+    padding: 5px !important;
+    padding-top: 2px !important;
+    max-width: 35px;
+}
+
+.btn-gray{
+    background-color: #616161;
+    border: 0;
+}
+
+.pointer-hover:hover{
+    cursor:pointer;
+}
+
+.label-icon {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.p-0__input>.input-row{
+    padding: 0;
+}

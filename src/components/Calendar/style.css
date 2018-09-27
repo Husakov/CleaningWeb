@@ -1,0 +1,38 @@
+.calendar-job-item {
+    margin: 0.5rem;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 7px;
+    border-left: 7px solid;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: grab;
+}
+
+.calendar-staff-item {
+    cursor: grab;
+}
+
+.block-off-color {
+    height: 75px;
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.block-off-color:not(:first-child) {
+    margin-left: 5px;
+}
+
+.block-off-color.active {
+    border: 3px solid gray;
+}
+
+.block-off-color:hover {
+    border: 3px solid gray;
+}
+/* .toolbar-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+} */

@@ -1,0 +1,44 @@
+.service-color-tag {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+.chrome-picker {
+    position: absolute;
+    z-index: 100;
+}
+
+.color-input-box {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    top: 10%;
+    left: 20px;
+    pointer-events: none;
+}
+
+.service-title {
+    font-weight: 300;
+}
+
+#colorTag {
+    cursor: pointer;
+}
+
+.form-control.service-color-input {
+    padding-left: 40px;
+}
+
+.form-control.service-color-input[readonly] {
+    background: white;
+}
+
+.pricing-container {
+    display: flex;
+}
+
+.pricing-container input {
+    margin-right: 10px;
+}

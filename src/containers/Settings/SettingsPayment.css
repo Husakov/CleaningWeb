@@ -1,0 +1,22 @@
+.Settings-Payment {
+
+}
+
+.Settings-Payment .toggle-container {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+.Settings-Payment li.list-group-item {
+    background-color: #F7F7F7;
+    color: #495861;
+    padding: 0.5rem 2rem;
+    /*margin: 0.2em 0 0 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay-card>div {
+    border-radius: 0;
+    border-top: 0;
+}

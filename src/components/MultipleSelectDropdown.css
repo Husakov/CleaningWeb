@@ -1,0 +1,11 @@
+.services-dropdown {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.services-dropdown:hover {
+    background-color: lightgray;
+}

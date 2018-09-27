@@ -1,0 +1,64 @@
+.toggle-container {
+    display: inline-flex;
+    padding: 4px 8px;
+    color: black;
+    background: white;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px gray solid;
+    cursor: pointer;
+    height: 38px;
+}
+
+.toggle-container.active {
+    border: 1px darkgreen solid;
+}
+
+.toggle-container > span {
+    width: 90%;
+    left: 10%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-container .slider-body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+    color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    align-items: center;
+    transform: translateX(-90%);
+    transition: transform 0.5s;
+}
+
+.toggle-container.active .slider-body {
+    transform: translateX(0);
+}
+
+.toggle-container .slider-body span {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.toggle-container .slider-head {
+    width: 10%;
+    background: white;
+    height: 100%;
+    background: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+}

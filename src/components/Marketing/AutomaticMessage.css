@@ -1,0 +1,30 @@
+.messages-dropdown-item.dropdown-item:hover {
+    background-color: lightgray !important;
+}
+
+.messages-dropdown-item.dropdown-item {
+    cursor: pointer;
+}
+
+.message-times {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.services-dropdown {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.services-dropdown:hover {
+    background-color: gray;
+}
+
+.select-service-button {
+    background-color: white !important;
+    color: #495057 !important;
+    border-color: #ced4da !important;
+}

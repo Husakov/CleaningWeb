@@ -1,0 +1,93 @@
+
+.staff-list {
+    height: 83.5vh;
+    overflow: auto;
+    background-color: #F1F5F7;
+    padding: 20px 30px;
+}
+
+.staff-list-header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.staff {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+.single-team {
+    padding: 5px;
+}
+
+.create-team {
+    margin-top: 10px;
+}
+
+.create-team input {
+    width: 100%;
+}
+
+.create-team button {
+    width: 100%;
+    text-align: center;
+}
+
+.staff span {
+    padding-left: 20px;
+}
+
+.staff img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover {
+    border: 1px solid black;
+    border-style: dashed !important;
+    opacity: 0.5;
+}
+
+.team-name {
+    padding-top: 10px;
+}
+
+.create-team-button {
+    margin-top: 10px;
+    background-color: #25AAE1 !important;
+    border-color: #25AAE1 !important;
+}
+
+.create-team-button:hover,
+.add-user-button:hover {
+    background-color: rgb(24, 158, 216) !important;
+}
+
+.add-user-button {
+    background-color: #25AAE1 !important;
+    border-color: #25AAE1 !important;
+}
+
+.color-picker {
+    height: 35px;
+    width: 35px;
+}
+
+.staff-details-content {
+    padding: 20px;
+}

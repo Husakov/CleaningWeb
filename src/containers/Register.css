@@ -1,0 +1,148 @@
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./background.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.invalid-feedback {
+    display: block !important;
+}
+
+.register-container .card .card-body {
+    max-height: 700px;
+    overflow: auto;
+}
+
+.register-container .card .card-header {
+    text-align: center;
+}
+
+.register-container .card .card-header h2 {
+    margin-top: 20px;
+    color: #6c6763;
+    font-weight: bold;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.register-container .card .card-body label {
+    font-weight: bold;
+    color: #6c6763;
+}
+
+.register-container .card .card-body .form-group {
+    margin-top: 10px;
+}
+
+.register-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register-header {
+    border: 1px solid rgb(190, 183, 183);
+    font-weight: bold;
+}
+
+.add-employee-btn {
+    width: 100%;
+}
+
+.employee {
+    margin-bottom: 10px;
+}
+
+.employees {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.add-employee-img {
+    height: 50px;
+    float: left;
+}
+
+.services-wrapper {
+    width: 100%;
+}
+
+.services {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.service {
+    font-weight: normal !important;
+    padding-left: 8%;
+    width: 33.33%;
+}
+
+select {
+    cursor: pointer;
+}
+
+.add-service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-service-error {
+    color: red;
+    margin-top: 20px;
+}
+
+.add-service-input {
+    width: 70%;
+}
+
+.add-service-button {
+    width: 25%;
+    margin-left: 5%;
+    white-space: normal !important;
+}
+
+.hours {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hours label {
+    width: 30%;
+}
+
+.hours select {
+    width: 35%;
+}
+
+.steps-button {
+    background-color: #25AAE1 !important;
+    border-color: #25AAE1 !important;
+}
+
+.add-more {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.add-more:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+    .hours-dropdown {
+        font-size: 12px !important;
+    }
+
+    .hours-dropdown-label {
+        font-size: 11px;
+    }
+}

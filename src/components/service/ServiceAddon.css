@@ -1,0 +1,22 @@
+.separator {
+    height: 15px;
+}
+
+.sample-icon-menu {
+    height: 250px;
+    overflow: scroll;
+}
+
+.sample-icon-item {
+    height: 40px;
+    display: flex;
+}
+
+.sample-icon-item img {
+    height: 100%;
+}
+
+.addon-image {
+    height: 40px;
+    border-radius: 4px;
+}
